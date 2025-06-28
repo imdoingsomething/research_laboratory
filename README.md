@@ -19,7 +19,7 @@ Perfect for complex research projects like analyzing policy impacts, building le
 ### 1. Installation
 ```bash
 # Download and run the setup script
-curl -O https://raw.githubusercontent.com/your-repo/research-laboratory/setup.sh
+curl -O https://github.com/imdoingsomething/research_laboratory/setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
