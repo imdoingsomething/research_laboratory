@@ -1,0 +1,91 @@
+{
+  "project": {
+    "name": "Deportation Video Essay",
+    "description": "Comprehensive analysis of how deportation policies under Trump administration impact American civil liberties and freedoms",
+    "author": "Research Team",
+    "version": "1.0"
+  },
+  "executionSummary": {
+    "researchAgents": 8,
+    "auditAgents": 3,
+    "verificationAgent": 1,
+    "totalSources": 65,
+    "averageCredibility": "7.80",
+    "executionTime": "12.39s"
+  },
+  "vaultStructure": {
+    "name": "Deportation_Video_Essay",
+    "path": "research_output/Deportation_Video_Essay",
+    "folders": {
+      "dashboard": "00_Dashboard",
+      "talkingPoints": "01_Talking_Points",
+      "sources": "02_Sources",
+      "synthesis": "03_Evidence_Synthesis",
+      "visuals": "04_Visual_Elements",
+      "analytics": "05_Analytics"
+    },
+    "files": {
+      "mainHub": "Deportation_Video_Essay_Main_Hub.md",
+      "progressTracker": "Research_Progress.md",
+      "qualityMetrics": "Quality_Metrics.md"
+    },
+    "talkingPointFiles": [
+      {
+        "name": "The Allowance of Faceless Justice",
+        "filename": "The_Allowance_of_Faceless_Justice.md",
+        "priority": "high",
+        "targetSources": 12
+      },
+      {
+        "name": "The Right to Due Process is Stripped Away",
+        "filename": "The_Right_to_Due_Process_is_Stripped_Away.md",
+        "priority": "high",
+        "targetSources": 12
+      },
+      {
+        "name": "The Fear Replaces Our Freedom",
+        "filename": "The_Fear_Replaces_Our_Freedom.md",
+        "priority": "high",
+        "targetSources": 10
+      },
+      {
+        "name": "The Blockage of Oversight",
+        "filename": "The_Blockage_of_Oversight.md",
+        "priority": "high",
+        "targetSources": 10
+      },
+      {
+        "name": "The Normalizing of the Police State",
+        "filename": "The_Normalizing_of_the_Police_State.md",
+        "priority": "high",
+        "targetSources": 12
+      },
+      {
+        "name": "The Exceptions Become the Rule",
+        "filename": "The_Exceptions_Become_the_Rule.md",
+        "priority": "medium",
+        "targetSources": 8
+      },
+      {
+        "name": "The Repeal of Basic Rights",
+        "filename": "The_Repeal_of_Basic_Rights.md",
+        "priority": "high",
+        "targetSources": 10
+      },
+      {
+        "name": "The Collapse of Freedom",
+        "filename": "The_Collapse_of_Freedom.md",
+        "priority": "high",
+        "targetSources": 10
+      }
+    ]
+  },
+  "qualityMetrics": {
+    "totalSources": 65,
+    "credibilityScore": 7.795056862969096,
+    "coverageScore": 87.5,
+    "biasScore": 0,
+    "startTime": "2025-06-29T00:36:30.257Z",
+    "completionTime": "2025-06-29T00:36:42.648Z"
+  }
+}

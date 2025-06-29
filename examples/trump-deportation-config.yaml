@@ -1,0 +1,156 @@
+# Research Laboratory Configuration
+# This file defines the parameters for your research project
+
+project:
+  name: "Trump Deportation Research"
+  description: "Comprehensive analysis of how deportation policies under Trump administration impact American civil liberties and freedoms"
+  author: "Research Team"
+  version: "1.0"
+
+research_parameters:
+  main_topic: "Trump deportation policies and civil liberties impacts"
+  
+  # Define your talking points with research requirements
+  talking_points:
+    - name: "The Allowance of Faceless Justice"
+      description: "How deportation proceedings operate without transparent, public accountability"
+      priority: "high"
+      min_sources: 5
+      max_sources: 15
+      keywords: ["anonymous proceedings", "sealed records", "closed hearings", "lack of transparency"]
+      
+    - name: "The Right to Due Process is Stripped Away"
+      description: "Systematic removal of constitutional protections in deportation cases"
+      priority: "high"
+      min_sources: 8
+      max_sources: 20
+      keywords: ["due process", "constitutional rights", "legal representation", "expedited removal"]
+      
+    - name: "The Fear Replaces Our Freedom"
+      description: "How enforcement creates climate of fear affecting broader community"
+      priority: "high"
+      min_sources: 6
+      max_sources: 12
+      keywords: ["community fear", "chilling effect", "self-censorship", "freedom of movement"]
+      
+    - name: "The Blockage of Oversight"
+      description: "Restrictions on Congressional, judicial, and media oversight of enforcement"
+      priority: "medium"
+      min_sources: 4
+      max_sources: 10
+      keywords: ["oversight restrictions", "transparency", "congressional access", "media limitations"]
+      
+    - name: "The Normalizing of the Police State"
+      description: "Expansion of surveillance and enforcement powers beyond immigration"
+      priority: "high"
+      min_sources: 7
+      max_sources: 15
+      keywords: ["surveillance expansion", "police state", "authority overreach", "civil liberties"]
+      
+    - name: "The Exceptions Become the Rule"
+      description: "How emergency powers and exceptions become permanent policy"
+      priority: "medium"
+      min_sources: 5
+      max_sources: 12
+      keywords: ["emergency powers", "exception becomes rule", "permanent policies", "scope creep"]
+      
+    - name: "The Repeal of Basic Rights"
+      description: "Direct attacks on fundamental constitutional protections"
+      priority: "high"
+      min_sources: 6
+      max_sources: 18
+      keywords: ["constitutional violations", "basic rights", "fundamental freedoms", "legal protections"]
+      
+    - name: "The Collapse of Freedom"
+      description: "Cumulative effect on democratic institutions and civil society"
+      priority: "high"
+      min_sources: 5
+      max_sources: 15
+      keywords: ["democratic erosion", "institutional breakdown", "civil society", "freedom collapse"]
+
+# Quality control parameters
+quality_thresholds:
+  min_credibility_score: 7.0        # Minimum credibility score (1-10)
+  source_diversity_requirement: 0.7  # Percentage of different source types required
+  recency_weight: 0.3                # Weight given to recent sources
+  bias_detection_threshold: 0.6      # Threshold for bias detection alerts
+  cross_reference_minimum: 2         # Minimum cross-references per source
+
+# Agent configuration
+agent_configuration:
+  research_agents:
+    specializations: ["legal", "policy", "impact", "historical"]
+    max_concurrent: 4
+    research_depth: "comprehensive"    # Options: basic, standard, comprehensive, exhaustive
+    
+  audit_agents:
+    ratio: 0.33                       # 1 audit agent per 3 research agents
+    audit_types: ["cross-reference", "quality", "completeness", "bias"]
+    comprehensive_review: true
+
+# Output configuration
+output:
+  directory: "./research_output"
+  vault_name_format: "{project_name}_Research_Vault"
+  
+  # Obsidian-specific settings
+  obsidian:
+    enable_graph_analysis: true
+    auto_generate_mocs: true          # Maps of Content
+    include_visual_elements: true
+    enable_advanced_linking: true
+    
+  # File structure preferences
+  structure:
+    use_date_prefixes: false
+    max_filename_length: 100
+    folder_organization: "by_type"    # Options: by_type, by_topic, hybrid
+    
+  # Export options
+  exports:
+    generate_pdf_summary: true
+    create_presentation_slides: false
+    export_citation_database: true
+    include_source_screenshots: true
+
+# Advanced features
+advanced_features:
+  # Real-time monitoring
+  monitoring:
+    track_source_updates: false       # Monitor sources for updates
+    alert_on_new_developments: false  # Alert when new relevant content found
+    
+  # Integration options
+  integrations:
+    enable_zotero_export: false       # Export to Zotero library
+    connect_external_databases: false # Connect to academic databases
+    social_media_monitoring: false    # Monitor social platforms
+    
+  # AI enhancement
+  ai_features:
+    auto_generate_summaries: true     # AI-generated evidence summaries
+    suggest_additional_topics: true   # Suggest related research areas
+    bias_detection: true              # Automated bias detection
+    fact_verification: true           # Cross-verify facts across sources
+
+# Safety and ethics
+safety_parameters:
+  verify_source_authenticity: true
+  flag_potential_misinformation: true
+  respect_copyright_limits: true
+  maintain_source_attribution: true
+  ethical_research_practices: true
+
+# Performance settings
+performance:
+  max_research_time: 3600            # Maximum research time in seconds (1 hour)
+  parallel_processing: true
+  cache_search_results: true
+  optimize_for_speed: false          # vs. optimize_for_thoroughness
+
+# Logging and debugging
+logging:
+  level: "info"                      # Options: debug, info, warning, error
+  log_agent_communications: true
+  save_intermediate_results: true
+  detailed_progress_tracking: true

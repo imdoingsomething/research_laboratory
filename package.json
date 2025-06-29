@@ -1,0 +1,30 @@
+{
+  "name": "research-laboratory",
+  "version": "2.0.0",
+  "description": "Multi-Agent Research Laboratory with Completion Verification",
+  "main": "research-laboratory.js",
+  "scripts": {
+    "start": "node research-laboratory.js",
+    "example": "node research-laboratory.js deportation-video.yaml",
+    "test": "node research-laboratory.js research-request.yaml",
+    "help": "node scripts/help.js",
+    "validate": "node -e \"const yaml = require('js-yaml'); const fs = require('fs'); const {validateConfig} = require('./research-laboratory.js'); try { const config = yaml.load(fs.readFileSync(process.argv[1], 'utf8')); validateConfig(config); console.log('✅ Configuration is valid!'); } catch(e) { console.log('❌ Configuration error:', e.message); process.exit(1); }\""
+  },
+  "keywords": ["research", "ai", "claude", "obsidian", "automation", "multi-agent"],
+  "author": "Research Laboratory Team",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imdoingsomething/research_laboratory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imdoingsomething/research_laboratory/issues"
+  },
+  "homepage": "https://github.com/imdoingsomething/research_laboratory#readme"
+}
